@@ -1,0 +1,19 @@
+{
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "prettier.printWidth": 140,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  },
+  "editor.formatOnPaste": false,
+  "npm.enableScriptExplorer": true,
+  "files.exclude": {
+    "client\\node_modules": true,
+    "client\\dist": true,
+    "server\\bin": true,
+    "server\\obj": true,
+    "node_modules": true
+    }
+}
