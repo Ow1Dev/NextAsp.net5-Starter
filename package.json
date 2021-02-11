@@ -4,12 +4,8 @@
   "description": "This is a starterpack for next and asp.net core 5",
   "author": "Mads Bruun Jensen",
   "license": "MIT",
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
   "scripts": {
+    "husky": "husky install",
     "setup": "yarn run install-dependencies",
     "install-dependencies": "yarn run install-ui-packages",
     "install-ui-packages": "cd client && yarn install",
