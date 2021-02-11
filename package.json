@@ -12,7 +12,11 @@
     }
   },
   "scripts": {
-    "setup": ""
+    "setup": "yarn run install-dependencies",
+    "install-dependencies": "yarn run install-ui-packages",
+    "install-ui-packages": "cd client && yarn install",
+    "serve-dev:ui-local": "cd client && yarn run dev"
+
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
